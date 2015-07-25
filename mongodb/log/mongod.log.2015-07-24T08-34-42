@@ -1,0 +1,31 @@
+2015-07-24T16:26:19.740+0800 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-07-24T16:26:19.784+0800 I CONTROL  [initandlisten] MongoDB starting : pid=7992 port=12345 dbpath=data 32-bit host=qc
+2015-07-24T16:26:19.785+0800 I CONTROL  [initandlisten] 
+2015-07-24T16:26:19.785+0800 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-07-24T16:26:19.785+0800 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-07-24T16:26:19.785+0800 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-07-24T16:26:19.785+0800 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-07-24T16:26:19.786+0800 I CONTROL  [initandlisten] 
+2015-07-24T16:26:19.786+0800 I CONTROL  [initandlisten] targetMinOS: Windows XP SP3
+2015-07-24T16:26:19.786+0800 I CONTROL  [initandlisten] db version v3.0.4
+2015-07-24T16:26:19.786+0800 I CONTROL  [initandlisten] git version: 0481c958daeb2969800511e7475dc66986fa9ed5
+2015-07-24T16:26:19.786+0800 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-24T16:26:19.786+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-07-24T16:26:19.786+0800 I CONTROL  [initandlisten] options: { config: "conf/mongod.conf", net: { port: 12345 }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-07-24T16:26:19.789+0800 I INDEX    [initandlisten] allocating new ns file data\local.ns, filling with zeroes...
+2015-07-24T16:26:19.919+0800 I STORAGE  [FileAllocator] allocating new datafile data\local.0, filling with zeroes...
+2015-07-24T16:26:19.919+0800 I STORAGE  [FileAllocator] creating directory data\_tmp
+2015-07-24T16:26:20.342+0800 I STORAGE  [FileAllocator] done allocating datafile data\local.0, size: 64MB,  took 0.422 secs
+2015-07-24T16:26:20.350+0800 I NETWORK  [initandlisten] waiting for connections on port 12345
+2015-07-24T16:33:27.085+0800 I CONTROL  Ctrl-C signal
+2015-07-24T16:33:27.085+0800 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-07-24T16:33:27.085+0800 I CONTROL  [consoleTerminate] now exiting
+2015-07-24T16:33:27.085+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-07-24T16:33:27.086+0800 I NETWORK  [consoleTerminate] closing listening socket: 396
+2015-07-24T16:33:27.086+0800 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-07-24T16:33:27.086+0800 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-07-24T16:33:27.086+0800 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-07-24T16:33:27.086+0800 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-07-24T16:33:27.090+0800 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-07-24T16:33:27.090+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-07-24T16:33:27.090+0800 I CONTROL  [consoleTerminate] dbexit:  rc: 12
